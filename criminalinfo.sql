@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `info`
 --
 
-CREATE TABLE `info` (
+CREATE TABLE `myinfo` (
   `id` int(5) NOT NULL,
   `name` varchar(25) NOT NULL,
   `offname` varchar(25) NOT NULL,
@@ -45,9 +45,9 @@ CREATE TABLE `info` (
 -- Dumping data for table `info`
 --
 
-INSERT INTO `info` (`id`, `name`, `offname`, `crime`, `dob`, `arrDate`, `crimeDate`, `sex`, `address`, `img`, `more`) VALUES
+INSERT INTO `myinfo` (`id`, `name`, `offname`, `crime`, `dob`, `arrDate`, `crimeDate`, `sex`, `address`, `img`, `more`) VALUES
 
-(1001, 'Glenn Quagmire', 'Joe Swanson', 'Rape', '1989-02-11', '2002-06-01', '0001-09-01', 'M', 'Quahog', 0x696d616765732f646f776e6c6f61642e6a7067, '375'),
+(1001, 'Glenn Quagmire', 'Joe Swanson', 'Rape', '1989-02-11', '2002-06-01', '0001-09-01', 'M', 'Quahog', 0x696d616765732f646f776e6c6f61642e6a7067, '375');
 
 
 -- --------------------------------------------------------
@@ -98,7 +98,7 @@ INSERT INTO `users` (`uname`, `pass`) VALUES
 --
 -- Indexes for table `info`
 --
-ALTER TABLE `info`
+ALTER TABLE `myinfo`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -111,3 +111,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
