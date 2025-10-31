@@ -41,11 +41,12 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
    ```python 
 
-   localhost/Criminal-Management-System
+   localhost/criminal_management_system
 
    ```
 
    Congrats! The Website is live on your machine.
+
 
 
 
