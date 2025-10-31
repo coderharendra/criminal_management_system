@@ -25,7 +25,7 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
    ```python
 
-   git clone https://github.com/vraj404/Criminal-Management-System.git
+   git clone https://github.com/coderharendra/criminal_management_system.git
 
    ```
 
@@ -46,6 +46,7 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
    ```
 
    Congrats! The Website is live on your machine.
+
 
 
 
